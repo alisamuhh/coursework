@@ -1,0 +1,19 @@
+﻿<Window x:Class="coursework.DealContractWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Документ по сделке"
+        Height="700"
+        Width="850"
+        WindowStartupLocation="CenterOwner">
+
+    <DockPanel Margin="15">
+        <Button DockPanel.Dock="Bottom"
+                Content="Печать документа"
+                Height="40"
+                Margin="0,12,0,0"
+                Click="Print_Click"/>
+
+        <FlowDocumentScrollViewer x:Name="DocumentViewer"
+                                  VerticalScrollBarVisibility="Auto"/>
+    </DockPanel>
+</Window>

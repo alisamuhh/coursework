@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="coursework.Helpers.ClientRolePolicy">
+    <Position X="3.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ClientRolePolicy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.ClientUniquenessValidator">
+    <Position X="1.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ClientUniquenessValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.ClientValidator">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\ClientValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.DealValidator">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\DealValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.PropertyValidator">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\PropertyValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.RequestValidator">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\RequestValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Helpers.ValidationHelper">
+    <Position X="6.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACBAAAAAAAAAAAAAAABAAAAAABABAAAAAA=</HashCode>
+      <FileName>Helpers\ValidationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.AgencyData" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABACAIA=</HashCode>
+      <FileName>Models\AgencyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.ApartmentProperty" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ApartmentProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.Client" Collapsed="true">
+    <Position X="18" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAECMEAAACgAAIANAAAQAACAAUAAAEACAAAAIAAAAAg=</HashCode>
+      <FileName>Models\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.Deal" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAEAAAAgEAAAACAAAAAEQgBBCBAAAAAAIA=</HashCode>
+      <FileName>Models\Deal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.HouseProperty" Collapsed="true">
+    <Position X="16.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HouseProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.IndividualClient" Collapsed="true">
+    <Position X="20.25" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IndividualClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.LegalEntityClient" Collapsed="true">
+    <Position X="15.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LegalEntityClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.OfferDecision" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAACAA=</HashCode>
+      <FileName>Models\OfferDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.Property" Collapsed="true">
+    <Position X="18" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACIQAMAQAgIQkEIBACBAECAwAABAACAABgAIAAiAQ=</HashCode>
+      <FileName>Models\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.PropertyFactory">
+    <Position X="2" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAIAAAAAAAAABAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PropertyFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.Request" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAAAAoEgHADAAAIAADACEAAwhJQAAAACAI=</HashCode>
+      <FileName>Models\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Models.RoomProperty" Collapsed="true">
+    <Position X="20.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\RoomProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Services.AgencyDataStorage" Collapsed="true">
+    <Position X="5.5" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAQAAAAAAAAAAACAAAgAABAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Services\AgencyDataStorage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.Services.AgencySearchService" Collapsed="true">
+    <Position X="6" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\AgencySearchService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.Services.AgencyService" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAQgkIAQAAAAAAEAIQAAEBCEIAEAAFgIDAADEADAgAY=</HashCode>
+      <FileName>Services\AgencyService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.Services.DealProcessingService" Collapsed="true">
+    <Position X="7" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Services\DealProcessingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.Services.OfferDecisionService" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\OfferDecisionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.Services.PropertyMatchingService" Collapsed="true">
+    <Position X="11.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PropertyMatchingService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.DealContractWindow" Collapsed="true">
+    <Position X="8.25" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DealContractWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.EditClientWindow" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEQAAAAAAAAAQAAAAAAIABgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EditClientWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.MatchingPropertiesReportWindow" Collapsed="true">
+    <Position X="11.75" Y="8.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAABAAAAAAAAAAAAAAEAEAAAAAAQAAA=</HashCode>
+      <FileName>MatchingPropertiesReportWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.MatchingRequestsWindow" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>MatchingRequestsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.NewClientWindow" Collapsed="true">
+    <Position X="8.5" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEwAAAAgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewClientWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.RegistrationReceiptWindow" Collapsed="true">
+    <Position X="12" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>RegistrationReceiptWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="coursework.Services.DemoDataService">
+    <Position X="4.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DemoDataService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="coursework.MainWindow" Collapsed="true">
+    <Position X="5.5" Y="9.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ggBINGgEACgiIUAYwlEUhBEIEEBoBIAABwAAEIAwDCc=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

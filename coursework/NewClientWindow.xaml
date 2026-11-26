@@ -1,0 +1,120 @@
+﻿<Window x:Class="coursework.NewClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Регистрация нового клиента"
+        Width="720"
+        Height="750"
+        MinWidth="600"
+        MinHeight="550"
+        WindowStartupLocation="CenterOwner"
+        Background="#F3F5F9">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Text="РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   Foreground="#243247"
+                   Margin="0,0,0,20"/>
+
+        <ScrollViewer Grid.Row="1"
+                      VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+
+                <TextBlock Text="Тип лица"/>
+                <ComboBox x:Name="ClientKindComboBox"
+                          SelectedIndex="0"
+                          SelectionChanged="ClientKindComboBox_SelectionChanged">
+                    <ComboBoxItem Content="Физическое лицо"/>
+                    <ComboBoxItem Content="Юридическое лицо"/>
+                </ComboBox>
+
+                <StackPanel x:Name="OrganizationPanel"
+                            Visibility="Collapsed"
+                            Margin="0,5,0,10">
+                    <TextBlock Text="Наименование организации *"/>
+                    <TextBox x:Name="OrganizationNameTextBox"/>
+                </StackPanel>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="Фамилия *"/>
+                        <TextBox x:Name="LastNameTextBox"/>
+
+                        <TextBlock Text="Отчество"/>
+                        <TextBox x:Name="MiddleNameTextBox"/>
+
+                        <TextBlock Text="Электронная почта"/>
+                        <TextBox x:Name="EmailTextBox"/>
+
+                        <TextBlock Text="Регистрационный номер *"/>
+                        <TextBox x:Name="RegistrationTextBox"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2">
+                        <TextBlock Text="Имя *"/>
+                        <TextBox x:Name="FirstNameTextBox"/>
+
+                        <TextBlock Text="Контактный телефон *"/>
+                        <TextBox x:Name="PhoneTextBox"/>
+
+                        <TextBlock Text="Адрес *"/>
+                        <TextBox x:Name="AddressTextBox"/>
+
+                        <TextBlock Text="Роль клиента *"/>
+                        <ComboBox x:Name="ClientTypeComboBox"
+                                  SelectedIndex="-1">
+                            <ComboBoxItem Content="Покупатель / арендатор"/>
+                            <ComboBoxItem Content="Продавец / арендодатель"/>
+                            <ComboBoxItem Content="Покупатель и продавец"/>
+                        </ComboBox>
+                    </StackPanel>
+                </Grid>
+
+                <TextBlock Text="Регистрационный взнос, руб."/>
+                <TextBox x:Name="RegistrationFeeTextBox"
+                         Text="0"/>
+
+                <CheckBox x:Name="RegistrationFeePaidCheckBox"
+                          Content="Регистрационный взнос оплачен"
+                          Margin="0,8,0,12"/>
+
+                <TextBlock Text="* Обязательные поля"
+                           Foreground="#6B7280"
+                           FontSize="12"/>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,15,0,0">
+
+            <Button Content="Отмена"
+                    Width="120"
+                    Height="38"
+                    Margin="0,0,10,0"
+                    Click="Cancel_Click"/>
+
+            <Button Content="Зарегистрировать"
+                    Width="180"
+                    Height="38"
+                    Background="#2563EB"
+                    Foreground="White"
+                    Click="Register_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
